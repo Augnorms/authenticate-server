@@ -11,7 +11,6 @@ route.post("/", async(req:Request, res:Response)=>{
         lastname,
         password,
         email, 
-        gender,
         phonenumber,
         dateofbirth,
         country
@@ -22,7 +21,6 @@ route.post("/", async(req:Request, res:Response)=>{
     register.lastname = lastname;
     register.password = password;
     register.email = email;
-    register.gender = gender;
     register.phonenumber = phonenumber;
     register.dateofbirth = dateofbirth;
     register.country = country;

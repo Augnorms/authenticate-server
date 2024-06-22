@@ -20,9 +20,6 @@ export class Registration{
     email!:string
 
     @Column()
-    gender!:string
-
-    @Column()
     phonenumber!:string
 
     @Column()
